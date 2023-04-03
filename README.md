@@ -29,7 +29,7 @@ git clone git@github.com:CoderOpen/ChatGPT.git
 ```sh
 cd ChatGPT
 ```
-* 安装SDK OrhanErday/OpenAI
+* 安装SDK `OrhanErday/OpenAI`
 ```sh
 composer require orhanerday/open-ai
 ```
@@ -60,6 +60,9 @@ php -S localhost:8000 -t .
 <p>
 <image src='./wechat.png' style="margin:0 20px;width:300px;height:auto" >  <span>                   </span>                           <image src='./zsxq.png' style="margin:0 20px;width:300px;height:auto" >
 </p>
+
+### 二次开发
+联系微信作者 `phpcoder666`，可开发h5、小程序等
 
 ## 常见问题
 * ChatGPT账号以及api key 怎么获取？
