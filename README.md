@@ -23,7 +23,7 @@ PHP实现理解上下文的ChatGPT流式问答助手,支持ChattGPT-4，可快�
 
 * 克隆项目代码
 ```sh
-git clone https://github.com/orhanerday/ChatGPT.git
+git clone git@github.com:CoderOpen/ChatGPT.git
 ```
 * 进入项目根目录
 ```sh
@@ -38,6 +38,7 @@ composer require orhanerday/open-ai
 ```php
 $open_ai_key = ""; 
 ```
+
 
 * 启动PHP内建的web服务
 ```sh
@@ -57,7 +58,7 @@ php -S localhost:8000 -t .
 在这里您可以和一群志同道合的人分享交流最前沿的ChatGPT信息咨讯，实操热门ChatGPT应用实现AIGC创收，实战搭建H5、小程序变现，创造自己的睡后收入副业！
 </p>
 <p>
-<image src='./wechat.png' style="margin:0 20px;width:300px;height:auto" ><image src='./zsxq.png' style="margin:0 20px;width:300px;height:auto" >
+<image src='./wechat.png' style="margin:0 20px;width:300px;height:auto" >  <span>                   </span>                           <image src='./zsxq.png' style="margin:0 20px;width:300px;height:auto" >
 </p>
 
 ## 常见问题
