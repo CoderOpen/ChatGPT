@@ -11,21 +11,23 @@
 </head>
 
 <body>
-<!-- History feature
+
 <div class="sidebar">
-  <p class="tablink sidebar-header">Create Chat</h2>
+<!--  <h2 class="tablink sidebar-header">Create Chat</h2>
     <button class="tablink" onclick="openTab(event, 'tab1')">Lorem ipsum</button>
-    <button class="tablink" onclick="openTab(event, 'tab2')">Dolor sit amet</button>
+    <button class="tablink" onclick="openTab(event, 'tab2')">Dolor sit amet</button>-->
+    <h2 class="tablink sidebar-header">联系作者</h2>
+    <image src='./wechat.png' style="width:100%;height:auto" >
 </div>
--->
 <section class="msger">
+    <div style="text-align:right"> <a href="https://github.com/CoderOpen/ChatGPT"><img style="width:50px" alt="展示不出" src="github.png"></a></div>
     <header class="msger-header">
         <div class="msger-header-title">
             <i class="fas fa-comment-alt"></i> ChatGPT
             &nbsp;| ID: <input type="text" id="id" hidden> <span class="id_session"></span>
         </div>
         <div class="msger-header-options">
-            <button id="delete-button">Delete History</button>
+            <button id="delete-button">删除记录</button>
         </div>
     </header>
 
@@ -34,12 +36,11 @@
 
     <form class="msger-inputarea">
         <input class="msger-input" placeholder="Enter your message..." require>
-        <button type="submit" class="msger-send-btn">Send</button>
+        <button type="submit" class="msger-send-btn">发送</button>
     </form>
 </section>
 <script src='https://use.fontawesome.com/releases/v5.0.13/js/all.js'></script>
 <script src="./script.js"></script>
-<!-- History feature
 <script>
 function openTab(evt, tabName) {
   var i, tabcontent, tablinks;
@@ -55,7 +56,6 @@ function openTab(evt, tabName) {
   evt.currentTarget.className += " active";
 }
 </script>
--->
 
 </body>
 

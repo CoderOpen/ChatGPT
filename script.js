@@ -24,7 +24,7 @@ const PERSON_NAME = "You";
 
 // Function to delete chat history records for a user ID using the API
 function deleteChatHistory(userId) {
-    if (!confirm("Are you sure? Your Session and History will delete for good.")) {
+    if (!confirm("确定删除? 对话历史记录将被删除.")) {
         return false
     }
 
